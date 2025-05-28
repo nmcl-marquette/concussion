@@ -4,7 +4,7 @@ IRB: Marquette University, HR-3233
 
 ## Project Description
 
-In this longitudinal study, we had health and recently-concussed subjects perform out-and-back reaches using a robotic manipulandum. Subjects performed many reach trials (saved as MATLAB .mat files). Each subject attended multiple visits (sessions).\
+In this longitudinal study, we had health and recently-concussed subjects perform out-and-back reaches using a robotic manipulandum. Subjects performed many reach trials (saved as MATLAB .mat files). Each subject attended multiple visits (sessions).
 
 This codebase uses the object-oriented programming style.
 
