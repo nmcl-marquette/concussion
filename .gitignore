@@ -1,5 +1,21 @@
+# Environment Variables
 .env 
 *.env 
-testfolder/ 
+
+# Data Folders and subject data (these folders should be managed by the NAS)
+Data/
+Output/
+SPSS/
+# Hide subject ledger files
+Subject Ledger*
+SubjectLedger*
+*.xlsx
+
+# macOS
 .DS_store 
 Thumbs.db 
+
+# MATLAB Files
+*.asv
+# Don't sync .mat files! This might break intermediate features if a part of code depends on small .mat files (i.e., calibrations or lookup tables)
+*.mat
