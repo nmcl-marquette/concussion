@@ -4,7 +4,7 @@ IRB: Marquette University, HR-3233
 
 ## Project Description
 
-In this longitudinal study, we had health and recently-concussed subjects perform out-and-back reaches using a robotic manipulandum. Subjects performed many reach trials (saved as MATLAB .mat files). Each subject attended multiple visits (sessions).
+In this longitudinal study, we had healthy and recently-concussed subjects perform out-and-back reaches using a robotic manipulandum. Reach trajectories were recorded. Subjects performed many reach trials (saved as MATLAB .mat files). Each subject attended multiple visits (sessions). We are interested in modeling prior reach performance errors and environmental perturbations imposed by the robot to predict reach performance.
 
 This codebase uses the object-oriented programming style.
 
@@ -14,7 +14,7 @@ This codebase uses the object-oriented programming style.
 - `Scripts/Classes/@RobotResults2` Contains the class definition of an experimental session (a collection of trials). Use for within-session analyses.
 
 ## Data and File Structure
-The general structure of the project is as follows.\
+The general structure of the project is as follows.
 - `Scripts` holds all code of the project and is synced to GitHub.
 - `Data` holds all raw subject data and processed subject data. Also holds results.
 ```
