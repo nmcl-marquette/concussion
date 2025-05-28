@@ -39,8 +39,9 @@ The general structure of the project is as follows.\
     ├── SubN001
     └── ...
 ```
+### Configuring the `Data` folder
+The `Data` folder will need to be connected to a NAS or a local folder. Inside `Data` is a folder for each test subject. Within each subject folder are folders for each experimental session `Session1`, `Session2` etc. Within each session folder is a `Robot` folder which contains raw data from the collection device.
 
-The `Data` folder will need to be connected to a NAS or a local folder. Inside `Data` is a folder for each test subject. Within each subject folder are folders for each experimental session `Session1`, `Session2` etc. Within each session folder is a `Robot` folder which contains raw data from the collection device.\
 Intermediate data processing are stored in .mat files of the respective folder. For example, a collection of processed trials for subject C001's first experimental session would be in the `Data/SubC001/Session1/RR2.mat` file. A file containing all their sessions would be in the `Data/SubC001/RRs.mat`.
 
 ## Commonly used abbreviations:
