@@ -52,8 +52,4 @@ Intermediate data processing are stored in .mat files of the respective folder. 
 - Windows 11
 - MATLAB 2024a
 
-## Data Sharing Information
-
-Repository: *put the name of the repository you intend to submit to here. If there isn't one, put N/A.
-Data is accessible via the following link: *put your link to the repository here, if there isn't one, you can delete this line
 
